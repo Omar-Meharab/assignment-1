@@ -99,23 +99,26 @@ section{
 }
 
 .inquiry{
-
-    margin: 10px 10px;
-    text-align: left;
     background-image: url("images/background.png");
-    background-size: 500px;
+    background-size: 600px;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.header{
-    position: relative;
-    bottom: 8px;
-    left: 16px;
+.right{
+    float: right;
+    margin-top: 270px;
+    margin-right: 400px;
+}
+.left{
+    float: left;
+    margin-top: 190px;
+    margin-left: 400px;
+    color: white;
 }
 
-.chat{
-    text-align: right;
+.inquiry div h1{
+    color: white;
 }
 
 .connected{
@@ -140,6 +143,3 @@ section{
     padding: 10px;
 }
 
-.achievements{
-    
-}
